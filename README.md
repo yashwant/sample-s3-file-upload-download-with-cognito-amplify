@@ -5,11 +5,13 @@ with cognito authentication
 ##Steps
 - Clone to your machine
 ```
-$ git clone <repo url>
+$ git clone https://github.com/yashwant/sample-s3-file-upload-download-with-cognito-amplify
 ```
 
 - Install dependencies
 ```
+$ cd sample-s3-file-upload-download-with-cognito-amplify
+
 $ npm install
 ```
 
