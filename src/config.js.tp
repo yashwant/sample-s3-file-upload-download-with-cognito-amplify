@@ -1,0 +1,17 @@
+export default {
+  s3: {
+    REGION: "us-east-1",
+    BUCKET: "<bucket name>"
+  },
+  apiGateway: {
+    REGION: "us-east-1",
+    URL: "<API Gateway BASE URL e.g. https://9dxuekkw9i.execute-api.us-east-1.amazonaws.com/dev >"
+  },
+  cognito: {
+    REGION: "us-east-1",
+    USER_POOL_ID: "<user pool id>",
+    APP_CLIENT_ID: "<app client id>",
+    IDENTITY_POOL_ID: "<identity pool id>"
+  },
+  MAX_ATTACHMENT_SIZE: 5000000
+};
